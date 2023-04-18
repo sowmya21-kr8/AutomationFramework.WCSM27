@@ -35,6 +35,9 @@ public void createContactWithOrgTest() throws IOException
 	//Step 5: Navigate to Organizations link
 	    HomePage hp= new HomePage(driver);
 	    hp.clickOnOrganizationsLink();
+	    
+	    
+	    
 		
 		//Step 6: Click on Create Organization Look up Image
 		OrganizationsPage op=new OrganizationsPage(driver);
